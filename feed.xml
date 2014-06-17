@@ -6,9 +6,95 @@
     <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Seg, 16 jun 2014 22:13:04 -0300</pubDate>
-    <lastBuildDate>Seg, 16 jun 2014 22:13:04 -0300</lastBuildDate>
+    <pubDate>Seg, 16 jun 2014 23:03:33 -0300</pubDate>
+    <lastBuildDate>Seg, 16 jun 2014 23:03:33 -0300</lastBuildDate>
 
+    
+    <item>
+      <title>Acesso a código nativo utilizando JNA</title>
+      <link>http://jbake.org/blog/2014/06/20140616.html</link>
+      <pubDate>Seg, 16 jun 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">blog/2014/06/20140616.html</guid>
+      <description>
+      
+&lt;p&gt;Acesso a código nativo utilizando JNA&lt;/p&gt;
+Até então o acesso a código nativo é feito via JNI(Java Native Interface), uma funcionalidade disponibilizada pela Sun(Hoje Oracle).
+O uso de JNI para acesso aos métodos nativos é bastante complexo e exige um conhecimento inermediário em C\C++. A biblioteca JNA, encapsula os métodos de acesso a interface nativa de maneira mais simples.
+
+&lt;p&gt;O código abaixo converte uma cadeia de caracteres para inteiro e exibe no console:&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint&quot;&gt;
+&lt;code&gt;
+	#include &lt;stdlib.h&gt;
+	int main() { 
+	int ano = atoi(&quot;2012&quot;); 
+	printf(&quot;Hello [%s] [%d] \n&quot;, &quot;World&quot;, ano); 
+	return 0; }
+
+&lt;/code&gt;
+&lt;/pre&gt;
+
+Para compilar este código, deve usar os comandos abaixo:
+&lt;pre&gt;
+	&lt;code&gt;
+		- Compilando e gerando o executável 
+		helloWorld: gcc -o helloWorld HelloWorld.c 
+		- Executando: ./helloWorld 
+		Saída: Hello [World] [2012] 
+	&lt;/code&gt;
+&lt;/pre&gt;
+
+Toda a função nativa que for usada no programa deverá ser declarada em uma interface.
+&lt;pre class=&quot;prettyprint&quot;&gt;
+	&lt;code&gt;
+		import com.sun.jna.Library; 
+		public interface CLibrary extends Library { 
+		
+		void printf(String format, Object... args); 
+		int atoi(String value); 
+	}
+
+	&lt;/code&gt;
+&lt;/pre&gt;
+Após declarar a interface, a classe CLibrary(exemplo), fará a chamada diretamente da biblioteca correspondente ao SO, sendo DLL para windows e SO para Unix.
+&lt;pre class=&quot;prettyprint&quot;&gt;
+	&lt;code&gt;
+		import com.sun.jna.Native; 
+		public final class CLibraryFunctions { 
+			private CLibrary cLibraryInstance; 
+			public CLibraryFunctions() { 
+				cLibraryInstance = (CLibrary)Native.loadLibrary(&quot;c&quot;, CLibrary.class); 
+			} 
+			public void printf(String format, Object... args) { 
+			cLibraryInstance.printf(format, args); 
+		} 
+		public int atoi(String data) { return cLibraryInstance.atoi(data); 
+	} 
+}
+
+	&lt;/code&gt;
+&lt;/pre&gt;
+A classe Native, possui o método loadLibrary que carrega a biblioteca correspondente do SO. Neste exemplo, foi passado como argumento, o caractere &quot;c&quot;. O Método encarrega-se de preencher o restante do nome com o prefixo &quot;lib&quot; e a extensão &quot;.so&quot;.
+
+Feito esse processo, podemos realizar a chamada do programa principal, retornando o resultado do processo.
+&lt;pre class=&quot;prettyprint&quot;&gt;
+	&lt;code&gt;
+		public class JNAHelloWorld { 
+			public static void main(String[] args) { 
+				CLibraryFunctions cLib = new CLibraryFunctions(); 
+				int ano = cLib.atoi(&quot;2012&quot;); 
+				cLib.printf(&quot;Hello [%s] [%d]&quot;, &quot;World&quot;, ano); 
+			} 
+		}
+	&lt;/code&gt;
+&lt;/pre&gt;
+E teremos a saída, Hello [World] [2012]&lt;br&gt;
+
+Repositório no Github: &lt;a href=&quot;https://github.com/twall/jna&quot;&gt;jna&lt;/a&gt;&lt;br&gt;
+Referências: Acesso ao código nativo usando JNA (Java Native Access) &lt;a href=&quot;http://www.devmedia.com.br/acesso-ao-codigo-nativo-usando-jna-java-native-access/26535&quot;&gt;devmedia&lt;/a&gt;
+
+	  </description>
+    </item>
     
     <item>
       <title>Remover arquivos deletados do versionamento</title>
