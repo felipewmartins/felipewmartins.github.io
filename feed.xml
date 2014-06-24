@@ -6,8 +6,8 @@
     <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Ter, 24 jun 2014 14:32:12 -0300</pubDate>
-    <lastBuildDate>Ter, 24 jun 2014 14:32:12 -0300</lastBuildDate>
+    <pubDate>Ter, 24 jun 2014 15:12:34 -0300</pubDate>
+    <lastBuildDate>Ter, 24 jun 2014 15:12:34 -0300</lastBuildDate>
 
     
     <item>
@@ -20,7 +20,7 @@
 &lt;p&gt;Corrigir erro apresentado pelo eclipse - &quot;Method must have signature string method&quot;&lt;/p&gt;
 &lt;ul&gt;
 	&lt;li&gt;
-		Primeiro: Acesse o eclipse e clique em &lt;i&gt;Window - Preferences&lt;/i&gt;
+		Primeiro: Acesse o eclipse e clique em: &lt;b&gt;&lt;i&gt;Window - Preferences&lt;/i&gt;&lt;/b&gt;
 	&lt;/li&gt;
 &lt;/ul&gt;
 
