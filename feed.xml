@@ -6,9 +6,55 @@
     <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Qua, 18 jun 2014 22:01:34 -0300</pubDate>
-    <lastBuildDate>Qua, 18 jun 2014 22:01:34 -0300</lastBuildDate>
+    <pubDate>Ter, 24 jun 2014 14:32:12 -0300</pubDate>
+    <lastBuildDate>Ter, 24 jun 2014 14:32:12 -0300</lastBuildDate>
 
+    
+    <item>
+      <title>Corrigindo o erro: "method must have signature string method()" no Eclipse</title>
+      <link>http://jbake.org/blog/2014/06/20140624.html</link>
+      <pubDate>Ter, 24 jun 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">blog/2014/06/20140624.html</guid>
+      <description>
+      
+&lt;p&gt;Corrigir erro apresentado pelo eclipse - &quot;Method must have signature string method&quot;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		Primeiro: Acesse o eclipse e clique em &lt;i&gt;Window - Preferences&lt;/i&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img src=&quot;/img/posts/img-eclipse-1.png&quot;&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		Acesse: &lt;b&gt;&lt;i&gt;Web - JavaServer Faces Tools - Validation&lt;/i&gt;&lt;/b&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img src=&quot;/img/posts/img-eclipse-2.png&quot;&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		Agora acesse: &lt;b&gt;&lt;i&gt;Type Assignment Problems - Method expression signature incompatibility&lt;/i&gt;&lt;/b&gt;&lt;br&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		Marque essa última opção com: &lt;b&gt;Warning ou Ignore&lt;/b&gt;
+	&lt;/li&gt;
+	
+&lt;/ul&gt;
+&lt;img src=&quot;/img/posts/img-eclipse-3.png&quot;&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;p&gt;Feito isso, reinicie o eclipse e o erro estará corrigido.&lt;/p&gt;
+
+
+
+
+	  </description>
+    </item>
     
     <item>
       <title>Acesso a código nativo utilizando JNA</title>
