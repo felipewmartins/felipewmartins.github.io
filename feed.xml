@@ -6,9 +6,24 @@
     <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Ter, 24 jun 2014 15:12:34 -0300</pubDate>
-    <lastBuildDate>Ter, 24 jun 2014 15:12:34 -0300</lastBuildDate>
+    <pubDate>Qui, 10 jul 2014 22:17:59 -0300</pubDate>
+    <lastBuildDate>Qui, 10 jul 2014 22:17:59 -0300</lastBuildDate>
 
+    
+    <item>
+      <title>Biblioteca para acesso a cpu e memória através do Java</title>
+      <link>http://jbake.org/blog/2014/07/20140624.html</link>
+      <pubDate>Qui, 10 jul 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">blog/2014/07/20140624.html</guid>
+      <description>
+      
+&lt;p&gt;Link do Maven: &lt;/p&gt;&lt;a href=&quot;http://mvnrepository.com/artifact/org.fusesource/sigar/1.6.4&quot;&gt;SIGAR MAVEN&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+	  </description>
+    </item>
     
     <item>
       <title>Corrigindo o erro: "method must have signature string method()" no Eclipse</title>
