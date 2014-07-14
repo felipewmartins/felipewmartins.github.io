@@ -6,15 +6,35 @@
     <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Qui, 10 jul 2014 22:17:59 -0300</pubDate>
-    <lastBuildDate>Qui, 10 jul 2014 22:17:59 -0300</lastBuildDate>
+    <pubDate>Seg, 14 jul 2014 08:26:01 -0300</pubDate>
+    <lastBuildDate>Seg, 14 jul 2014 08:26:01 -0300</lastBuildDate>
 
     
     <item>
+      <title>Content assist não funciona no eclipse(Xubuntu)</title>
+      <link>http://jbake.org/blog/2014/07/20140714.html</link>
+      <pubDate>Seg, 14 jul 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">blog/2014/07/20140714.html</guid>
+      <description>
+      
+&lt;p&gt;Para corrigir este problema deve-se alterar uma configuração do xfce&lt;/p&gt;&lt;br&gt;
+No xfce:
+&lt;li&gt;
+	&lt;ul&gt;Acessar &lt;b&gt;Configurações&lt;/b&gt;-&gt;&lt;b&gt;Métodos de entrada de teclado&lt;/b&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;br&gt;
+&lt;p&gt;Feito isso, deve-se apagar o campo &lt;i&gt;Atalhos do teclado&lt;/i&gt; e reiniciar o eclipse.&lt;/p&gt;
+
+
+
+
+	  </description>
+    </item>
+    
+    <item>
       <title>Biblioteca para acesso a cpu e memória através do Java</title>
-      <link>http://jbake.org/blog/2014/07/20140624.html</link>
+      <link>http://jbake.org/blog/2014/07/20140710.html</link>
       <pubDate>Qui, 10 jul 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">blog/2014/07/20140624.html</guid>
+      <guid isPermaLink="false">blog/2014/07/20140710.html</guid>
       <description>
       
 &lt;p&gt;Link do Maven: &lt;/p&gt;&lt;a href=&quot;http://mvnrepository.com/artifact/org.fusesource/sigar/1.6.4&quot;&gt;SIGAR MAVEN&lt;/a&gt;&lt;/p&gt;
