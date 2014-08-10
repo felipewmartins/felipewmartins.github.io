@@ -6,9 +6,52 @@
     <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Seg, 14 jul 2014 08:26:01 -0300</pubDate>
-    <lastBuildDate>Seg, 14 jul 2014 08:26:01 -0300</lastBuildDate>
+    <pubDate>Dom, 10 ago 2014 12:59:45 -0300</pubDate>
+    <lastBuildDate>Dom, 10 ago 2014 12:59:45 -0300</lastBuildDate>
 
+    
+    <item>
+      <title>Configurando o ruby e o rails no xubuntu.</title>
+      <link>http://jbake.org/blog/2014/08/20140624.html</link>
+      <pubDate>Dom, 10 ago 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">blog/2014/08/20140624.html</guid>
+      <description>
+      
+&lt;p&gt;Configurar o ruby no xubuntu&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		Primeiro: Acessar o terminal e digitar o comando abaixo:&lt;br&gt;
+		&lt;code&gt;\curl -sSL https://get.rvm.io | bash&lt;/code&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;&lt;br&gt;
+Aguardar o download terminar. Este comando instala o rvm, para gerenciar as versões do ruby instaladas na máquina.&lt;br&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+                 Feito isso, executar o comando abaixo:&lt;br&gt;
+		&lt;code&gt;rvm install ruby&lt;/code&gt;
+		
+	&lt;/li&gt;
+&lt;/ul&gt;&lt;br&gt;
+O Rvm instalará a versão mais atual do ruby, se for necessário instalar uma versão mais antiga, basta inserir a versão no final. Ex:&lt;br&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;code&gt;rvm install 1.9.3&lt;/code&gt;&lt;br&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Para instalar o rails, deve rodar o comando abaixo:
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;code&gt;gemset install rails&lt;/code&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+
+
+	  </description>
+    </item>
     
     <item>
       <title>Content assist não funciona no eclipse(Xubuntu)</title>
@@ -17,12 +60,12 @@
       <guid isPermaLink="false">blog/2014/07/20140714.html</guid>
       <description>
       
-&lt;p&gt;Para corrigir este problema deve-se alterar uma configuração do xfce&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;Para corrigir este problema deve-se alterar uma configuração de entrada do xfce.&lt;/p&gt;&lt;br&gt;
 No xfce:
 &lt;li&gt;
 	&lt;ul&gt;Acessar &lt;b&gt;Configurações&lt;/b&gt;-&gt;&lt;b&gt;Métodos de entrada de teclado&lt;/b&gt;&lt;/ul&gt;
 &lt;/li&gt;&lt;br&gt;
-&lt;p&gt;Feito isso, deve-se apagar o campo &lt;i&gt;Atalhos do teclado&lt;/i&gt; e reiniciar o eclipse.&lt;/p&gt;
+&lt;p&gt;Feito isso, deve-se apagar o campo &lt;b&gt;&lt;i&gt;Atalhos do teclado&lt;/i&gt;&lt;/b&gt; e reiniciar o eclipse.&lt;/p&gt;
 
 
 

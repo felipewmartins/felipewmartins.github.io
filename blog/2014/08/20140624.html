@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Content assist não funciona no eclipse(Xubuntu)</title>
+    <title>Configurando o ruby e o rails no xubuntu.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -68,18 +68,41 @@
 
 	
 	<div class="page-header">
-		<h1>Content assist não funciona no eclipse(Xubuntu)</h1>
+		<h1>Configurando o ruby e o rails no xubuntu.</h1>
 	</div>
 
-	<p><em>14 Julho 2014</em></p>
+	<p><em>10 Agosto 2014</em></p>
 
 	<p>
-<p>Para corrigir este problema deve-se alterar uma configuração de entrada do xfce.</p><br>
-No xfce:
-<li>
-	<ul>Acessar <b>Configurações</b>-><b>Métodos de entrada de teclado</b></ul>
-</li><br>
-<p>Feito isso, deve-se apagar o campo <b><i>Atalhos do teclado</i></b> e reiniciar o eclipse.</p>
+<p>Configurar o ruby no xubuntu</p>
+<ul>
+	<li>
+		Primeiro: Acessar o terminal e digitar o comando abaixo:<br>
+		<code>\curl -sSL https://get.rvm.io | bash</code>
+	</li>
+</ul><br>
+Aguardar o download terminar. Este comando instala o rvm, para gerenciar as versões do ruby instaladas na máquina.<br>
+<ul>
+	<li>
+                 Feito isso, executar o comando abaixo:<br>
+		<code>rvm install ruby</code>
+		
+	</li>
+</ul><br>
+O Rvm instalará a versão mais atual do ruby, se for necessário instalar uma versão mais antiga, basta inserir a versão no final. Ex:<br>
+<ul>
+	<li>
+		<code>rvm install 1.9.3</code><br>
+	</li>
+</ul>
+<p>
+Para instalar o rails, deve rodar o comando abaixo:
+<ul>
+	<li>
+		<code>gemset install rails</code>
+	</li>
+</ul>
+</p>
 
 
 
