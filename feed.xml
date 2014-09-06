@@ -6,9 +6,26 @@
     <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Dom, 10 ago 2014 12:59:45 -0300</pubDate>
-    <lastBuildDate>Dom, 10 ago 2014 12:59:45 -0300</lastBuildDate>
+    <pubDate>Sáb, 6 set 2014 17:54:21 -0300</pubDate>
+    <lastBuildDate>Sáb, 6 set 2014 17:54:21 -0300</lastBuildDate>
 
+    
+    <item>
+      <title>Json para java e vice e versa.</title>
+      <link>http://jbake.org/blog/2014/09/20140906.html</link>
+      <pubDate>Sáb, 6 set 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">blog/2014/09/20140906.html</guid>
+      <description>
+      
+&lt;p&gt;Link para um parser json e java&lt;/p&gt;&lt;br&gt;
+	&lt;a href=&quot;http://www.jsonschema2pojo.org/&quot;&gt;jsonschema&lt;/a&gt;
+&lt;/p&gt;
+
+
+
+
+	  </description>
+    </item>
     
     <item>
       <title>Configurando o ruby e o rails no xubuntu.</title>
