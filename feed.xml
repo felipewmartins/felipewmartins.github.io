@@ -6,9 +6,55 @@
     <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Dom, 9 nov 2014 11:57:24 -0300</pubDate>
-    <lastBuildDate>Dom, 9 nov 2014 11:57:24 -0300</lastBuildDate>
+    <pubDate>Dom, 8 fev 2015 14:28:05 -0300</pubDate>
+    <lastBuildDate>Dom, 8 fev 2015 14:28:05 -0300</lastBuildDate>
 
+    
+    <item>
+      <title>Instalar JRebel no Eclipse</title>
+      <link>http://jbake.org/blog/2015/02/20150208.html</link>
+      <pubDate>Dom, 8 fev 2015 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">blog/2015/02/20150208.html</guid>
+      <description>
+      
+&lt;p&gt;Instalar JRebel no Eclipse&lt;/p&gt;&lt;br&gt;
+Disponibilizada uma licença para DEV do JRebel.&lt;br&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;
+        Acessar o endereço: &lt;a href=&quot;https://my.jrebel.com/&quot;&gt;myJRebel&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Depois de criar o cadastro, ir a aba &lt;i&gt;Install and Activate&lt;/i&gt;, para liberar uma licença.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    &lt;img src=&quot;/img/posts/img-jrebel-1.png&quot;&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Feito isso, deve copiar a chave para jrebel no eclipse. Se não tiver instalado, ir em: &lt;i&gt;Help-Eclipse MarketPlace&lt;/i&gt; e procurar por &quot;JRebel&quot;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    &lt;img src=&quot;/img/posts/img-jrebel-eclipse-1.png&quot;&gt;
+    &lt;ul&gt;
+        &lt;li&gt;No meu caso, eu já tenho instalado. Feito, então abrir a perspectiva do JRebel para ativar a chave.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;img src=&quot;/img/posts/img-jrebel-eclipse-2.png&quot;&gt;&lt;br&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            Nessa perspectiva, é possível também, escolher o server que será monitorado pelo JRebel.
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    Feito isso, basta colar a chave disponibilizada e passar a usar o JRebel para o hot deploy.
+&lt;/p&gt;
+
+	  </description>
+    </item>
     
     <item>
       <title>Json para java e vice e versa.</title>

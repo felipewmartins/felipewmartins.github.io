@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Configurando o ruby e o rails no xubuntu.</title>
+    <title>Instalar JRebel no Eclipse</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -68,44 +68,47 @@
 
 	
 	<div class="page-header">
-		<h1>Configurando o ruby e o rails no xubuntu.</h1>
+		<h1>Instalar JRebel no Eclipse</h1>
 	</div>
 
-	<p><em>10 Agosto 2014</em></p>
+	<p><em>08 Fevereiro 2015</em></p>
 
 	<p>
-<p>Configurar o ruby no xubuntu</p>
+<p>Instalar JRebel no Eclipse</p><br>
+Disponibilizada uma licença para DEV do JRebel.<br>
+
 <ul>
-	<li>
-		Primeiro: Acessar o terminal e digitar o comando abaixo:<br>
-		<code>\curl -sSL https://get.rvm.io | bash</code>
-	</li>
-</ul><br>
-Aguardar o download terminar. Este comando instala o rvm, para gerenciar as versões do ruby instaladas na máquina.<br>
-<ul>
-	<li>
-                 Feito isso, executar o comando abaixo:<br>
-		<code>rvm install ruby</code>
-		
-	</li>
-</ul><br>
-O Rvm instalará a versão mais atual do ruby, se for necessário instalar uma versão mais antiga, basta inserir a versão no final. Ex:<br>
-<ul>
-	<li>
-		<code>rvm install 1.9.3</code><br>
-	</li>
+    <li>
+        Acessar o endereço: <a href="https://my.jrebel.com/">myJRebel</a>
+    </li>
+    <li>
+        Depois de criar o cadastro, ir a aba <i>Install and Activate</i>, para liberar uma licença.
+    </li>
 </ul>
 <p>
-Para instalar o rails, deve rodar o comando abaixo:
-<ul>
-	<li>
-		<code>gemset install rails</code>
-	</li>
-</ul>
+    <img src="/img/posts/img-jrebel-1.png">
 </p>
-
-
-
+<br>
+<ul>
+    <li>
+        Feito isso, deve copiar a chave para jrebel no eclipse. Se não tiver instalado, ir em: <i>Help-Eclipse MarketPlace</i> e procurar por "JRebel"
+    </li>
+</ul>
+<p>
+    <img src="/img/posts/img-jrebel-eclipse-1.png">
+    <ul>
+        <li>No meu caso, eu já tenho instalado. Feito, então abrir a perspectiva do JRebel para ativar a chave.</li>
+    </ul>
+    <img src="/img/posts/img-jrebel-eclipse-2.png"><br>
+    <ul>
+        <li>
+            Nessa perspectiva, é possível também, escolher o server que será monitorado pelo JRebel.
+        </li>
+    </ul>
+</p>
+<p>
+    Feito isso, basta colar a chave disponibilizada e passar a usar o JRebel para o hot deploy.
+</p>
 </p>
 
 	<hr />
