@@ -6,9 +6,34 @@
     <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Ter, 21 abr 2015 11:43:17 -0300</pubDate>
-    <lastBuildDate>Ter, 21 abr 2015 11:43:17 -0300</lastBuildDate>
+    <pubDate>Seg, 24 ago 2015 22:50:40 -0300</pubDate>
+    <lastBuildDate>Seg, 24 ago 2015 22:50:40 -0300</lastBuildDate>
 
+    
+    <item>
+      <title>Falha ao carregar Js em aplicação Rails</title>
+      <link>http://jbake.org/blog/2015/08/20150824.html</link>
+      <pubDate>Seg, 24 ago 2015 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">blog/2015/08/20150824.html</guid>
+      <description>
+      
+&lt;p&gt;Falha ao carregar Js/Coffe em aplicação Rails&lt;/p&gt;&lt;br&gt;
+Caso seja inserida alguma lógica em um arquivo js ou coffee, e esse acabar por sendo carregado apenas uma vez, pode ser feito o procedimento abaixo.&lt;br&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;
+        Inserir no Gemfile a gem jquery turbolink:&lt;br&gt;&lt;script src=&quot;https://gist.github.com/felipewmartins/5acc6d37a2758cdd4dd9.js&quot;&gt;&lt;/script&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Inserir no arquivo &lt;b&gt;application.js&lt;/b&gt;, o seguinte código: &lt;br&gt;&lt;script src=&quot;https://gist.github.com/felipewmartins/a0353b6c30189707a610.js&quot;&gt;&lt;/script&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;&lt;br&gt;
+Feito isso, o rails gerenciará melhor, os Js e coffees inseridos nos arquivos externos ao html/erb.&lt;br&gt;
+
+Abraço!
+
+	  </description>
+    </item>
     
     <item>
       <title>Instalar JRebel no Eclipse</title>
