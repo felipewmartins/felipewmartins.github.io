@@ -6,9 +6,28 @@
     <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Seg, 24 ago 2015 22:50:40 -0300</pubDate>
-    <lastBuildDate>Seg, 24 ago 2015 22:50:40 -0300</lastBuildDate>
+    <pubDate>Qua, 17 mai 2017 08:51:57 -0300</pubDate>
+    <lastBuildDate>Qua, 17 mai 2017 08:51:57 -0300</lastBuildDate>
 
+    
+    <item>
+      <title>API MarketPlace</title>
+      <link>http://jbake.org/blog/2017/20170517.html</link>
+      <pubDate>Qua, 17 mai 2017 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">blog/2017/20170517.html</guid>
+      <description>
+      
+&lt;p&gt;Mashape&lt;/p&gt;&lt;br&gt;
+Free rest api&lt;br&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;
+        The free rest API: &lt;a href=&quot;https://market.mashape.com/&quot;&gt;Mashape&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+	  </description>
+    </item>
     
     <item>
       <title>Falha ao carregar Js em aplicação Rails</title>
